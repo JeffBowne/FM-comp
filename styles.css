@@ -10,13 +10,13 @@ body {
 	text-align: center;
 }
 
-.face {
+.banner__face {
 	display: inline-block;
 	width: 45%;
 	vertical-align: middle;
 }
 
-.box {
+.banner__box {
 	position: relative;
 	vertical-align: middle;
 	display: inline-block;
@@ -27,25 +27,25 @@ body {
 	margin: 20px 50px 0 0;
 }
 
-.inner {
+.banner__inner {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 }
 
-.inner h1 {
+.banner__inner h1 {
 	margin: 0px;
 	font-weight: normal;
 	font-size: 2.4vw;
 
 }
 
-.inner h2 {
+.banner__inner h2 {
 	margin-top: 0px;
 	font-size: 1.4vw;
 }
 
-.button {
+.banner__button {
 	display: inline-block;
 	padding: 12px 12px 12px 12px;
 	background: #E14031;
@@ -55,7 +55,7 @@ body {
 	font-weight: bold;
 }
 
-.stamp {
+.banner__stamp {
 	width: 7vw;
 	position: absolute;
 	top: 0;
@@ -70,32 +70,32 @@ body {
 	padding-bottom: 4px;
 }
 
-.face {
+.banner__face {
 	width: 100%;
 }
 
-.box {
+.banner__box {
 	display: block;
 	width: 95%;
 	height: 45vw;
 	margin: 18px auto 10px auto;
 }
 
-.inner h1 {
+.banner__inner h1 {
 	font-size: 10vw;
 
 }
 
-.inner h2 {
+.banner__inner h2 {
 	font-size: 5.5vw;
 }
 
-.button {
+.banner__button {
 	padding: 18px 16px 18px 16px;
 	font-size: 4.2vw;
 }
 
-.stamp {
+.banner__stamp {
 	display: none;
 }
 
